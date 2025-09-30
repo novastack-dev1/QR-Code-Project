@@ -2,7 +2,74 @@
 <html>
   <head>
     <title>Front-end Mentor Project 1</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+@import
+url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  /*font-optical-sizing: auto;*/
+  font-weight: 400;
+  font-size: 15px;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 100%;
+  max-width: 350px;
+}
+
+.code{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px hsl(212, 15%, 48%, 0.2);
+  text-align: center;
+  padding: 20px;
+}
+
+.code img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.code h3{
+  font-weight: 700;
+  font-size: 20px;
+  margin: 15px 0;
+  color: hsl(218, 44%, 22%);
+}
+
+.code p{
+  color: hsl(216, 15%, 48%);
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+@media (max-width: 480px) {
+  .code {
+    padding: 15px;
+  }
+
+  .code h3 {
+    font-size: 16;
+  }
+
+  .code p {
+    font-size: 12px;
+  }
+}
+    </style>
   </head>
   <body>
     <div class="container">
